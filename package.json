@@ -1,0 +1,11 @@
+{
+  "name": "@solenopsys/fl-datasheets",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json -c ../../../../tsconfig.base.json"
+  },
+  "peerDependencies": {
+    "json5": "^2.2.3",
+    "ng2-pdfjs-viewer": "^15.0.0"
+  }
+}
